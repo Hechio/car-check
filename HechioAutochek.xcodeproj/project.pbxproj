@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B9F6336285079EF00F1E17A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6335285079EF00F1E17A /* AppDelegate.swift */; };
+		8B9F6338285079EF00F1E17A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6337285079EF00F1E17A /* SceneDelegate.swift */; };
+		8B9F633A285079EF00F1E17A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6339285079EF00F1E17A /* ViewController.swift */; };
+		8B9F633D285079EF00F1E17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F633B285079EF00F1E17A /* Main.storyboard */; };
+		8B9F6340285079EF00F1E17A /* HechioAutochek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F633E285079EF00F1E17A /* HechioAutochek.xcdatamodeld */; };
+		8B9F6342285079F100F1E17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F6341285079F100F1E17A /* Assets.xcassets */; };
+		8B9F6345285079F100F1E17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F6343285079F100F1E17A /* LaunchScreen.storyboard */; };
+		8B9F6350285079F100F1E17A /* HechioAutochekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F634F285079F100F1E17A /* HechioAutochekTests.swift */; };
+		8B9F635A285079F100F1E17A /* HechioAutochekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6359285079F100F1E17A /* HechioAutochekUITests.swift */; };
+		8B9F635C285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B9F634C285079F100F1E17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9F632A285079EF00F1E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F6331285079EF00F1E17A;
+			remoteInfo = HechioAutochek;
+		};
+		8B9F6356285079F100F1E17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9F632A285079EF00F1E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F6331285079EF00F1E17A;
+			remoteInfo = HechioAutochek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B9F6332285079EF00F1E17A /* HechioAutochek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HechioAutochek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9F6335285079EF00F1E17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B9F6337285079EF00F1E17A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B9F6339285079EF00F1E17A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B9F633C285079EF00F1E17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B9F633F285079EF00F1E17A /* HechioAutochek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HechioAutochek.xcdatamodel; sourceTree = "<group>"; };
+		8B9F6341285079F100F1E17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B9F6344285079F100F1E17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B9F6346285079F100F1E17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9F634B285079F100F1E17A /* HechioAutochekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HechioAutochekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9F634F285079F100F1E17A /* HechioAutochekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HechioAutochekTests.swift; sourceTree = "<group>"; };
+		8B9F6355285079F100F1E17A /* HechioAutochekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HechioAutochekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9F6359285079F100F1E17A /* HechioAutochekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HechioAutochekUITests.swift; sourceTree = "<group>"; };
+		8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HechioAutochekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9F632F285079EF00F1E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F6348285079F100F1E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F6352285079F100F1E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B9F6329285079EF00F1E17A = {
+			isa = PBXGroup;
+			children = (
+				8B9F6334285079EF00F1E17A /* HechioAutochek */,
+				8B9F634E285079F100F1E17A /* HechioAutochekTests */,
+				8B9F6358285079F100F1E17A /* HechioAutochekUITests */,
+				8B9F6333285079EF00F1E17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B9F6333285079EF00F1E17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F6332285079EF00F1E17A /* HechioAutochek.app */,
+				8B9F634B285079F100F1E17A /* HechioAutochekTests.xctest */,
+				8B9F6355285079F100F1E17A /* HechioAutochekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9F6334285079EF00F1E17A /* HechioAutochek */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F6335285079EF00F1E17A /* AppDelegate.swift */,
+				8B9F6337285079EF00F1E17A /* SceneDelegate.swift */,
+				8B9F6339285079EF00F1E17A /* ViewController.swift */,
+				8B9F633B285079EF00F1E17A /* Main.storyboard */,
+				8B9F6341285079F100F1E17A /* Assets.xcassets */,
+				8B9F6343285079F100F1E17A /* LaunchScreen.storyboard */,
+				8B9F6346285079F100F1E17A /* Info.plist */,
+				8B9F633E285079EF00F1E17A /* HechioAutochek.xcdatamodeld */,
+			);
+			path = HechioAutochek;
+			sourceTree = "<group>";
+		};
+		8B9F634E285079F100F1E17A /* HechioAutochekTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F634F285079F100F1E17A /* HechioAutochekTests.swift */,
+			);
+			path = HechioAutochekTests;
+			sourceTree = "<group>";
+		};
+		8B9F6358285079F100F1E17A /* HechioAutochekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F6359285079F100F1E17A /* HechioAutochekUITests.swift */,
+				8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */,
+			);
+			path = HechioAutochekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B9F6331285079EF00F1E17A /* HechioAutochek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9F635F285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochek" */;
+			buildPhases = (
+				8B9F632E285079EF00F1E17A /* Sources */,
+				8B9F632F285079EF00F1E17A /* Frameworks */,
+				8B9F6330285079EF00F1E17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HechioAutochek;
+			productName = HechioAutochek;
+			productReference = 8B9F6332285079EF00F1E17A /* HechioAutochek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B9F634A285079F100F1E17A /* HechioAutochekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9F6362285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochekTests" */;
+			buildPhases = (
+				8B9F6347285079F100F1E17A /* Sources */,
+				8B9F6348285079F100F1E17A /* Frameworks */,
+				8B9F6349285079F100F1E17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9F634D285079F100F1E17A /* PBXTargetDependency */,
+			);
+			name = HechioAutochekTests;
+			productName = HechioAutochekTests;
+			productReference = 8B9F634B285079F100F1E17A /* HechioAutochekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B9F6354285079F100F1E17A /* HechioAutochekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9F6365285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochekUITests" */;
+			buildPhases = (
+				8B9F6351285079F100F1E17A /* Sources */,
+				8B9F6352285079F100F1E17A /* Frameworks */,
+				8B9F6353285079F100F1E17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9F6357285079F100F1E17A /* PBXTargetDependency */,
+			);
+			name = HechioAutochekUITests;
+			productName = HechioAutochekUITests;
+			productReference = 8B9F6355285079F100F1E17A /* HechioAutochekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9F632A285079EF00F1E17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8B9F6331285079EF00F1E17A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8B9F634A285079F100F1E17A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8B9F6331285079EF00F1E17A;
+					};
+					8B9F6354285079F100F1E17A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8B9F6331285079EF00F1E17A;
+					};
+				};
+			};
+			buildConfigurationList = 8B9F632D285079EF00F1E17A /* Build configuration list for PBXProject "HechioAutochek" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9F6329285079EF00F1E17A;
+			productRefGroup = 8B9F6333285079EF00F1E17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B9F6331285079EF00F1E17A /* HechioAutochek */,
+				8B9F634A285079F100F1E17A /* HechioAutochekTests */,
+				8B9F6354285079F100F1E17A /* HechioAutochekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B9F6330285079EF00F1E17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F6345285079F100F1E17A /* LaunchScreen.storyboard in Resources */,
+				8B9F6342285079F100F1E17A /* Assets.xcassets in Resources */,
+				8B9F633D285079EF00F1E17A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F6349285079F100F1E17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F6353285079F100F1E17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9F632E285079EF00F1E17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F633A285079EF00F1E17A /* ViewController.swift in Sources */,
+				8B9F6336285079EF00F1E17A /* AppDelegate.swift in Sources */,
+				8B9F6338285079EF00F1E17A /* SceneDelegate.swift in Sources */,
+				8B9F6340285079EF00F1E17A /* HechioAutochek.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F6347285079F100F1E17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F6350285079F100F1E17A /* HechioAutochekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F6351285079F100F1E17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F635C285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift in Sources */,
+				8B9F635A285079F100F1E17A /* HechioAutochekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B9F634D285079F100F1E17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9F6331285079EF00F1E17A /* HechioAutochek */;
+			targetProxy = 8B9F634C285079F100F1E17A /* PBXContainerItemProxy */;
+		};
+		8B9F6357285079F100F1E17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9F6331285079EF00F1E17A /* HechioAutochek */;
+			targetProxy = 8B9F6356285079F100F1E17A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B9F633B285079EF00F1E17A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9F633C285079EF00F1E17A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B9F6343285079F100F1E17A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9F6344285079F100F1E17A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B9F635D285079F100F1E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B9F635E285079F100F1E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9F6360285079F100F1E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4582NNJ7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HechioAutochek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehechio.apps.HechioAutochek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B9F6361285079F100F1E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4582NNJ7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HechioAutochek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehechio.apps.HechioAutochek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B9F6363285079F100F1E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4582NNJ7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehechio.apps.HechioAutochekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HechioAutochek.app/HechioAutochek";
+			};
+			name = Debug;
+		};
+		8B9F6364285079F100F1E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4582NNJ7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehechio.apps.HechioAutochekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HechioAutochek.app/HechioAutochek";
+			};
+			name = Release;
+		};
+		8B9F6366285079F100F1E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4582NNJ7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehechio.apps.HechioAutochekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HechioAutochek;
+			};
+			name = Debug;
+		};
+		8B9F6367285079F100F1E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4582NNJ7T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehechio.apps.HechioAutochekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HechioAutochek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9F632D285079EF00F1E17A /* Build configuration list for PBXProject "HechioAutochek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F635D285079F100F1E17A /* Debug */,
+				8B9F635E285079F100F1E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9F635F285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F6360285079F100F1E17A /* Debug */,
+				8B9F6361285079F100F1E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9F6362285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F6363285079F100F1E17A /* Debug */,
+				8B9F6364285079F100F1E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9F6365285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F6366285079F100F1E17A /* Debug */,
+				8B9F6367285079F100F1E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B9F633E285079EF00F1E17A /* HechioAutochek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B9F633F285079EF00F1E17A /* HechioAutochek.xcdatamodel */,
+			);
+			currentVersion = 8B9F633F285079EF00F1E17A /* HechioAutochek.xcdatamodel */;
+			path = HechioAutochek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B9F632A285079EF00F1E17A /* Project object */;
+}
