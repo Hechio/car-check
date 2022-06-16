@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1840DEC17C9B30CA2DC18E39 /* Pods_HechioAutochek_HechioAutochekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9E78EB7A693AE926547538 /* Pods_HechioAutochek_HechioAutochekUITests.framework */; };
 		8B9F6336285079EF00F1E17A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6335285079EF00F1E17A /* AppDelegate.swift */; };
 		8B9F6338285079EF00F1E17A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6337285079EF00F1E17A /* SceneDelegate.swift */; };
-		8B9F633A285079EF00F1E17A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6339285079EF00F1E17A /* ViewController.swift */; };
+		8B9F633A285079EF00F1E17A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6339285079EF00F1E17A /* HomeViewController.swift */; };
 		8B9F633D285079EF00F1E17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F633B285079EF00F1E17A /* Main.storyboard */; };
 		8B9F6340285079EF00F1E17A /* HechioAutochek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F633E285079EF00F1E17A /* HechioAutochek.xcdatamodeld */; };
 		8B9F6342285079F100F1E17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F6341285079F100F1E17A /* Assets.xcassets */; };
@@ -17,6 +18,14 @@
 		8B9F6350285079F100F1E17A /* HechioAutochekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F634F285079F100F1E17A /* HechioAutochekTests.swift */; };
 		8B9F635A285079F100F1E17A /* HechioAutochekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6359285079F100F1E17A /* HechioAutochekUITests.swift */; };
 		8B9F635C285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */; };
+		8BA3C0F0285B6CD70020E8E3 /* CarDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3C0EF285B6CD70020E8E3 /* CarDetailsTableViewCell.swift */; };
+		8BA3C0F2285B78950020E8E3 /* CarImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3C0F1285B78950020E8E3 /* CarImagesCollectionViewCell.swift */; };
+		8BDA6198285B3F2F001AFA64 /* BrandsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA6197285B3F2F001AFA64 /* BrandsCollectionViewCell.swift */; };
+		8BDA619A285B3F4D001AFA64 /* CarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA6199285B3F4D001AFA64 /* CarsTableViewCell.swift */; };
+		8BED83D128509FFE0007A1D1 /* CarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED83CF28509FFE0007A1D1 /* CarDetailsViewController.swift */; };
+		8BED83D42850A0960007A1D1 /* CarDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BED83D32850A0960007A1D1 /* CarDetails.storyboard */; };
+		9184276E17638D43CAB5E377 /* Pods_HechioAutochek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4098075BE81E1234C043B /* Pods_HechioAutochek.framework */; };
+		EDACD7EE3C46B03C4C46FA48 /* Pods_HechioAutochekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA37F6D1644F387E6511FD0 /* Pods_HechioAutochekTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AEC621EF20FA9E3E53BFA08 /* Pods-HechioAutochekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HechioAutochekTests.debug.xcconfig"; path = "Target Support Files/Pods-HechioAutochekTests/Pods-HechioAutochekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37A25686184138646A1C94F2 /* Pods-HechioAutochek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HechioAutochek.release.xcconfig"; path = "Target Support Files/Pods-HechioAutochek/Pods-HechioAutochek.release.xcconfig"; sourceTree = "<group>"; };
+		45F4098075BE81E1234C043B /* Pods_HechioAutochek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HechioAutochek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA37F6D1644F387E6511FD0 /* Pods_HechioAutochekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HechioAutochekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C87C8B3C7311D88437F036 /* Pods-HechioAutochekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HechioAutochekTests.release.xcconfig"; path = "Target Support Files/Pods-HechioAutochekTests/Pods-HechioAutochekTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E9E78EB7A693AE926547538 /* Pods_HechioAutochek_HechioAutochekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HechioAutochek_HechioAutochekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F6332285079EF00F1E17A /* HechioAutochek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HechioAutochek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F6335285079EF00F1E17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B9F6337285079EF00F1E17A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B9F6339285079EF00F1E17A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B9F6339285079EF00F1E17A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8B9F633C285079EF00F1E17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B9F633F285079EF00F1E17A /* HechioAutochek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HechioAutochek.xcdatamodel; sourceTree = "<group>"; };
 		8B9F6341285079F100F1E17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 		8B9F6355285079F100F1E17A /* HechioAutochekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HechioAutochekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F6359285079F100F1E17A /* HechioAutochekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HechioAutochekUITests.swift; sourceTree = "<group>"; };
 		8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HechioAutochekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BA3C0EF285B6CD70020E8E3 /* CarDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		8BA3C0F1285B78950020E8E3 /* CarImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BDA6197285B3F2F001AFA64 /* BrandsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BDA6199285B3F4D001AFA64 /* CarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewCell.swift; sourceTree = "<group>"; };
+		8BED83CF28509FFE0007A1D1 /* CarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarDetailsViewController.swift; path = Controllers/CarDetailsViewController.swift; sourceTree = "<group>"; };
+		8BED83D32850A0960007A1D1 /* CarDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDetails.storyboard; sourceTree = "<group>"; };
+		9646042439AD28CB2CE0CA42 /* Pods-HechioAutochek-HechioAutochekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HechioAutochek-HechioAutochekUITests.debug.xcconfig"; path = "Target Support Files/Pods-HechioAutochek-HechioAutochekUITests/Pods-HechioAutochek-HechioAutochekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D47F64564CBD9361A16CE135 /* Pods-HechioAutochek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HechioAutochek.debug.xcconfig"; path = "Target Support Files/Pods-HechioAutochek/Pods-HechioAutochek.debug.xcconfig"; sourceTree = "<group>"; };
+		F13D3E522EB3004F00F8120E /* Pods-HechioAutochek-HechioAutochekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HechioAutochek-HechioAutochekUITests.release.xcconfig"; path = "Target Support Files/Pods-HechioAutochek-HechioAutochekUITests/Pods-HechioAutochek-HechioAutochekUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9184276E17638D43CAB5E377 /* Pods_HechioAutochek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDACD7EE3C46B03C4C46FA48 /* Pods_HechioAutochekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1840DEC17C9B30CA2DC18E39 /* Pods_HechioAutochek_HechioAutochekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		165DCF7A7BC6A79BB073170C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D47F64564CBD9361A16CE135 /* Pods-HechioAutochek.debug.xcconfig */,
+				37A25686184138646A1C94F2 /* Pods-HechioAutochek.release.xcconfig */,
+				9646042439AD28CB2CE0CA42 /* Pods-HechioAutochek-HechioAutochekUITests.debug.xcconfig */,
+				F13D3E522EB3004F00F8120E /* Pods-HechioAutochek-HechioAutochekUITests.release.xcconfig */,
+				1AEC621EF20FA9E3E53BFA08 /* Pods-HechioAutochekTests.debug.xcconfig */,
+				68C87C8B3C7311D88437F036 /* Pods-HechioAutochekTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A9C9B331ECFDB389172AE11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45F4098075BE81E1234C043B /* Pods_HechioAutochek.framework */,
+				7E9E78EB7A693AE926547538 /* Pods_HechioAutochek_HechioAutochekUITests.framework */,
+				5DA37F6D1644F387E6511FD0 /* Pods_HechioAutochekTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B9F6329285079EF00F1E17A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,8 @@
 				8B9F634E285079F100F1E17A /* HechioAutochekTests */,
 				8B9F6358285079F100F1E17A /* HechioAutochekUITests */,
 				8B9F6333285079EF00F1E17A /* Products */,
+				165DCF7A7BC6A79BB073170C /* Pods */,
+				4A9C9B331ECFDB389172AE11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +153,8 @@
 		8B9F6334285079EF00F1E17A /* HechioAutochek */ = {
 			isa = PBXGroup;
 			children = (
-				8B9F6335285079EF00F1E17A /* AppDelegate.swift */,
-				8B9F6337285079EF00F1E17A /* SceneDelegate.swift */,
-				8B9F6339285079EF00F1E17A /* ViewController.swift */,
-				8B9F633B285079EF00F1E17A /* Main.storyboard */,
+				8BED83C628509C420007A1D1 /* Screens */,
+				8BED83C528509C280007A1D1 /* Delegate */,
 				8B9F6341285079F100F1E17A /* Assets.xcassets */,
 				8B9F6343285079F100F1E17A /* LaunchScreen.storyboard */,
 				8B9F6346285079F100F1E17A /* Info.plist */,
@@ -130,6 +180,54 @@
 			path = HechioAutochekUITests;
 			sourceTree = "<group>";
 		};
+		8BDA6196285B3EF0001AFA64 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA6197285B3F2F001AFA64 /* BrandsCollectionViewCell.swift */,
+				8BDA6199285B3F4D001AFA64 /* CarsTableViewCell.swift */,
+				8BA3C0EF285B6CD70020E8E3 /* CarDetailsTableViewCell.swift */,
+				8BA3C0F1285B78950020E8E3 /* CarImagesCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8BED83C528509C280007A1D1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F6335285079EF00F1E17A /* AppDelegate.swift */,
+				8B9F6337285079EF00F1E17A /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8BED83C628509C420007A1D1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8BED83C828509C8D0007A1D1 /* CarDetails */,
+				8BED83C728509C4F0007A1D1 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8BED83C728509C4F0007A1D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA6196285B3EF0001AFA64 /* Cells */,
+				8B9F6339285079EF00F1E17A /* HomeViewController.swift */,
+				8B9F633B285079EF00F1E17A /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8BED83C828509C8D0007A1D1 /* CarDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8BED83CF28509FFE0007A1D1 /* CarDetailsViewController.swift */,
+				8BED83D32850A0960007A1D1 /* CarDetails.storyboard */,
+			);
+			path = CarDetails;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9F635F285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochek" */;
 			buildPhases = (
+				5BD7AF55F1E4410F7AE123BA /* [CP] Check Pods Manifest.lock */,
 				8B9F632E285079EF00F1E17A /* Sources */,
 				8B9F632F285079EF00F1E17A /* Frameworks */,
 				8B9F6330285079EF00F1E17A /* Resources */,
+				B074BECACFAAB1D7AC801636 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9F6362285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochekTests" */;
 			buildPhases = (
+				B21A1D60650351B091367E90 /* [CP] Check Pods Manifest.lock */,
 				8B9F6347285079F100F1E17A /* Sources */,
 				8B9F6348285079F100F1E17A /* Frameworks */,
 				8B9F6349285079F100F1E17A /* Resources */,
+				BD59021FF0BC8ABE3CAD755E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9F6365285079F100F1E17A /* Build configuration list for PBXNativeTarget "HechioAutochekUITests" */;
 			buildPhases = (
+				95406193C6D4B47A7299F160 /* [CP] Check Pods Manifest.lock */,
 				8B9F6351285079F100F1E17A /* Sources */,
 				8B9F6352285079F100F1E17A /* Frameworks */,
 				8B9F6353285079F100F1E17A /* Resources */,
+				D443016251D4CE3E6EEC475C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BED83D42850A0960007A1D1 /* CarDetails.storyboard in Resources */,
 				8B9F6345285079F100F1E17A /* LaunchScreen.storyboard in Resources */,
 				8B9F6342285079F100F1E17A /* Assets.xcassets in Resources */,
 				8B9F633D285079EF00F1E17A /* Main.storyboard in Resources */,
@@ -256,15 +361,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BD7AF55F1E4410F7AE123BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HechioAutochek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95406193C6D4B47A7299F160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HechioAutochek-HechioAutochekUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B074BECACFAAB1D7AC801636 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HechioAutochek/Pods-HechioAutochek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HechioAutochek/Pods-HechioAutochek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HechioAutochek/Pods-HechioAutochek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21A1D60650351B091367E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HechioAutochekTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD59021FF0BC8ABE3CAD755E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HechioAutochekTests/Pods-HechioAutochekTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HechioAutochekTests/Pods-HechioAutochekTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HechioAutochekTests/Pods-HechioAutochekTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D443016251D4CE3E6EEC475C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HechioAutochek-HechioAutochekUITests/Pods-HechioAutochek-HechioAutochekUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HechioAutochek-HechioAutochekUITests/Pods-HechioAutochek-HechioAutochekUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HechioAutochek-HechioAutochekUITests/Pods-HechioAutochek-HechioAutochekUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B9F632E285079EF00F1E17A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9F633A285079EF00F1E17A /* ViewController.swift in Sources */,
+				8BDA619A285B3F4D001AFA64 /* CarsTableViewCell.swift in Sources */,
+				8B9F633A285079EF00F1E17A /* HomeViewController.swift in Sources */,
+				8BED83D128509FFE0007A1D1 /* CarDetailsViewController.swift in Sources */,
 				8B9F6336285079EF00F1E17A /* AppDelegate.swift in Sources */,
 				8B9F6338285079EF00F1E17A /* SceneDelegate.swift in Sources */,
+				8BDA6198285B3F2F001AFA64 /* BrandsCollectionViewCell.swift in Sources */,
+				8BA3C0F2285B78950020E8E3 /* CarImagesCollectionViewCell.swift in Sources */,
 				8B9F6340285079EF00F1E17A /* HechioAutochek.xcdatamodeld in Sources */,
+				8BA3C0F0285B6CD70020E8E3 /* CarDetailsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +666,7 @@
 		};
 		8B9F6360285079F100F1E17A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47F64564CBD9361A16CE135 /* Pods-HechioAutochek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +695,7 @@
 		};
 		8B9F6361285079F100F1E17A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A25686184138646A1C94F2 /* Pods-HechioAutochek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +724,7 @@
 		};
 		8B9F6363285079F100F1E17A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AEC621EF20FA9E3E53BFA08 /* Pods-HechioAutochekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +745,7 @@
 		};
 		8B9F6364285079F100F1E17A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C87C8B3C7311D88437F036 /* Pods-HechioAutochekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +766,7 @@
 		};
 		8B9F6366285079F100F1E17A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9646042439AD28CB2CE0CA42 /* Pods-HechioAutochek-HechioAutochekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +785,7 @@
 		};
 		8B9F6367285079F100F1E17A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13D3E522EB3004F00F8120E /* Pods-HechioAutochek-HechioAutochekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
