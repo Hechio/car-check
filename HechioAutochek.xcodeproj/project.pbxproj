@@ -20,6 +20,12 @@
 		8B9F635C285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */; };
 		8BA3C0F0285B6CD70020E8E3 /* CarDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3C0EF285B6CD70020E8E3 /* CarDetailsTableViewCell.swift */; };
 		8BA3C0F2285B78950020E8E3 /* CarImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3C0F1285B78950020E8E3 /* CarImagesCollectionViewCell.swift */; };
+		8BBE96B4285C4FC000DDE36C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE96B3285C4FC000DDE36C /* Extensions.swift */; };
+		8BBE96B6285C51C900DDE36C /* PopularCarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE96B5285C51C900DDE36C /* PopularCarsModel.swift */; };
+		8BBE96B9285C52AE00DDE36C /* PopularCarsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE96B8285C52AE00DDE36C /* PopularCarsRequest.swift */; };
+		8BBE96BB285C536A00DDE36C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE96BA285C536A00DDE36C /* Constants.swift */; };
+		8BBE96BD285C6FB800DDE36C /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE96BC285C6FB800DDE36C /* CarsModel.swift */; };
+		8BBE96BF285C710800DDE36C /* CarsWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE96BE285C710800DDE36C /* CarsWebClient.swift */; };
 		8BDA6198285B3F2F001AFA64 /* BrandsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA6197285B3F2F001AFA64 /* BrandsCollectionViewCell.swift */; };
 		8BDA619A285B3F4D001AFA64 /* CarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA6199285B3F4D001AFA64 /* CarsTableViewCell.swift */; };
 		8BED83D128509FFE0007A1D1 /* CarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED83CF28509FFE0007A1D1 /* CarDetailsViewController.swift */; };
@@ -68,6 +74,12 @@
 		8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HechioAutochekUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8BA3C0EF285B6CD70020E8E3 /* CarDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		8BA3C0F1285B78950020E8E3 /* CarImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BBE96B3285C4FC000DDE36C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8BBE96B5285C51C900DDE36C /* PopularCarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCarsModel.swift; sourceTree = "<group>"; };
+		8BBE96B8285C52AE00DDE36C /* PopularCarsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCarsRequest.swift; sourceTree = "<group>"; };
+		8BBE96BA285C536A00DDE36C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8BBE96BC285C6FB800DDE36C /* CarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModel.swift; sourceTree = "<group>"; };
+		8BBE96BE285C710800DDE36C /* CarsWebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsWebClient.swift; sourceTree = "<group>"; };
 		8BDA6197285B3F2F001AFA64 /* BrandsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BDA6199285B3F4D001AFA64 /* CarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewCell.swift; sourceTree = "<group>"; };
 		8BED83CF28509FFE0007A1D1 /* CarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarDetailsViewController.swift; path = Controllers/CarDetailsViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +165,8 @@
 		8B9F6334285079EF00F1E17A /* HechioAutochek */ = {
 			isa = PBXGroup;
 			children = (
+				8BBE96B1285C4F3900DDE36C /* Data */,
+				8BBE96B0285C4F2B00DDE36C /* Utils */,
 				8BED83C628509C420007A1D1 /* Screens */,
 				8BED83C528509C280007A1D1 /* Delegate */,
 				8B9F6341285079F100F1E17A /* Assets.xcassets */,
@@ -178,6 +192,42 @@
 				8B9F635B285079F100F1E17A /* HechioAutochekUITestsLaunchTests.swift */,
 			);
 			path = HechioAutochekUITests;
+			sourceTree = "<group>";
+		};
+		8BBE96B0285C4F2B00DDE36C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE96B3285C4FC000DDE36C /* Extensions.swift */,
+				8BBE96BA285C536A00DDE36C /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8BBE96B1285C4F3900DDE36C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE96B7285C528300DDE36C /* NetworkRequests */,
+				8BBE96B2285C4F4E00DDE36C /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8BBE96B2285C4F4E00DDE36C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE96B5285C51C900DDE36C /* PopularCarsModel.swift */,
+				8BBE96BC285C6FB800DDE36C /* CarsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BBE96B7285C528300DDE36C /* NetworkRequests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE96B8285C52AE00DDE36C /* PopularCarsRequest.swift */,
+				8BBE96BE285C710800DDE36C /* CarsWebClient.swift */,
+			);
+			path = NetworkRequests;
 			sourceTree = "<group>";
 		};
 		8BDA6196285B3EF0001AFA64 /* Cells */ = {
@@ -486,15 +536,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBE96BD285C6FB800DDE36C /* CarsModel.swift in Sources */,
 				8BDA619A285B3F4D001AFA64 /* CarsTableViewCell.swift in Sources */,
 				8B9F633A285079EF00F1E17A /* HomeViewController.swift in Sources */,
 				8BED83D128509FFE0007A1D1 /* CarDetailsViewController.swift in Sources */,
 				8B9F6336285079EF00F1E17A /* AppDelegate.swift in Sources */,
 				8B9F6338285079EF00F1E17A /* SceneDelegate.swift in Sources */,
+				8BBE96B4285C4FC000DDE36C /* Extensions.swift in Sources */,
 				8BDA6198285B3F2F001AFA64 /* BrandsCollectionViewCell.swift in Sources */,
+				8BBE96BB285C536A00DDE36C /* Constants.swift in Sources */,
 				8BA3C0F2285B78950020E8E3 /* CarImagesCollectionViewCell.swift in Sources */,
+				8BBE96B9285C52AE00DDE36C /* PopularCarsRequest.swift in Sources */,
 				8B9F6340285079EF00F1E17A /* HechioAutochek.xcdatamodeld in Sources */,
+				8BBE96BF285C710800DDE36C /* CarsWebClient.swift in Sources */,
 				8BA3C0F0285B6CD70020E8E3 /* CarDetailsTableViewCell.swift in Sources */,
+				8BBE96B6285C51C900DDE36C /* PopularCarsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

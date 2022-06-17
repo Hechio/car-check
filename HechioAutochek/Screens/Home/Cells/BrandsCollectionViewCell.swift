@@ -11,9 +11,23 @@ class BrandsCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var carBrandImage: UIImageView!
     
-    func setUpViews(){
-        carBrandImage.layer.cornerRadius = 40
+    @IBOutlet weak var nameLabel: UILabel!
+    override class func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    
+    func setUpViews(urlString: String, name: String){
+        let url = URL(string:  urlString)!
+        carBrandImage.loadSVG(url: url)
+        carBrandImage.layer.cornerRadius = 30
         carBrandImage.clipsToBounds = true
+        nameLabel.text = name
+    }
+    
+    override func prepareForReuse() {
+        self.carBrandImage.image = nil
+        super.prepareForReuse()
     }
     
 }
