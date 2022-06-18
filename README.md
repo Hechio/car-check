@@ -23,7 +23,8 @@ The project has been written in <b>Swift</b> language and design using <b>UIKit<
 
 ## ScreenShots
 
-<img src="https://user-images.githubusercontent.com/47601553/174427181-e56cc240-3c18-4bc3-b382-511492d1dd27.png" width="200" style="max-width:100%;"> <img src="https://user-images.githubusercontent.com/47601553/174427193-e64e8401-73c7-434a-b870-1d90b5767961.png" width="200" style="max-width:100%;"> <img src="https://user-images.githubusercontent.com/47601553/174427200-09ac94ff-dc34-4cec-95a6-855b14f944f2.png" width="200" style="max-width:100%;"> 
+<img src="https://user-images.githubusercontent.com/47601553/174428544-dee14164-a59b-4e55-b2c7-3bd60f070b5d.png" width="200" style="max-width:100%;"> <img src="https://user-images.githubusercontent.com/47601553/174427181-e56cc240-3c18-4bc3-b382-511492d1dd27.png" width="200" style="max-width:100%;"> <img src="https://user-images.githubusercontent.com/47601553/174427193-e64e8401-73c7-434a-b870-1d90b5767961.png" width="200" style="max-width:100%;"> <img src="https://user-images.githubusercontent.com/47601553/174427200-09ac94ff-dc34-4cec-95a6-855b14f944f2.png" width="200" style="max-width:100%;"> 
+
 
 ## Video Recording of the App
 
