@@ -26,6 +26,7 @@ class HomeViewController: UIViewController {
     let carsWebClient = CarsWebClient()
     var carModelResponse = CarsModelResponse()
     var carDetails = CarsListResult()
+    var carsLists = [CarsListResult]()
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViews()
@@ -61,6 +62,7 @@ class HomeViewController: UIViewController {
         carsWebClient.mCarsList.subscribe(onNext: {
             (carList) in
             self.carModelResponse = carList
+            self.carsLists.append(contentsOf: carList.result ?? [CarsListResult]())
             self.carsTableView.reloadData()
         }).disposed(by: disposeBag)
         //carsWebClient.getCarLists(currentPage: 1)
@@ -76,6 +78,7 @@ class HomeViewController: UIViewController {
                         return
                     }
                     self.carModelResponse = carsModelResponse
+                    self.carsLists.append(contentsOf: carsModelResponse.result ?? [CarsListResult]())
                     DispatchQueue.main.async {
                         self.carsTableView.reloadData()
                     }
@@ -99,24 +102,24 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return carModelResponse.result?.count ?? 0
+        return carsLists.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CarsTableViewCell", for: indexPath) as! CarsTableViewCell
-        cell.setUpView(car: carModelResponse.result?[indexPath.row])
+        cell.setUpView(car: carsLists[indexPath.row])
         cell.selectionStyle = .none
         tableView.separatorStyle = .none
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        carDetails = carModelResponse.result?[indexPath.row] ?? CarsListResult()
+        carDetails = carsLists[indexPath.row]
         perfomCarDetailsSegue()
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let lastItem = (carModelResponse.result?.count ?? 0) - 2
+        let lastItem = carsLists.count - 1
         var currentPage = carModelResponse.pagination?.currentPage ?? 1
         let totalPages = carModelResponse.pagination?.pageSize ?? 1
         if indexPath.row == lastItem {

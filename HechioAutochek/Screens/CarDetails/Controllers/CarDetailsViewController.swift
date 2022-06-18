@@ -16,6 +16,7 @@ class CarDetailsViewController: UIViewController{
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var cartView: UILabel!
     
+    @IBOutlet weak var bookVisitButton: UIButton!
     @IBOutlet weak var backButton: UIImageView!
     @IBOutlet weak var imageVideoView: UIView!
     @IBOutlet weak var actionButton: UIButton!
@@ -60,8 +61,17 @@ class CarDetailsViewController: UIViewController{
         actionButton.layer.cornerRadius = 10
         actionButton.clipsToBounds = true
         
+        bookVisitButton.layer.cornerRadius = 8
+        bookVisitButton.clipsToBounds = true
+        
         imageVideoView.layer.cornerRadius = 15
         imageVideoView.clipsToBounds = true
+        
+        imageVideoView.layer.borderWidth = 2
+        imageVideoView.layer.borderColor = UIColor.white.cgColor
+        
+        carDetailsView.layer.cornerRadius = 15
+        carDetailsView.clipsToBounds = true
         
         tabBarController?.tabBar.isHidden = true
         

@@ -21,6 +21,9 @@ class CarsTableViewCell: UITableViewCell {
         carImage.layer.cornerRadius = 15
         carImage.clipsToBounds = true
         
+        carImage.layer.borderWidth = 2
+        carImage.layer.borderColor = UIColor.white.cgColor
+        
         detailsView.layer.cornerRadius = 15
         detailsView.clipsToBounds = true
     }
