@@ -33,6 +33,7 @@ class HomeViewController: UIViewController {
     }
     
     func configureViews(){
+        tabBarController?.tabBar.isHidden = false
         cartCountLabel.layer.cornerRadius = 15
         cartCountLabel.clipsToBounds = true
         

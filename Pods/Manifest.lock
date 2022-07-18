@@ -1,0 +1,36 @@
+PODS:
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - SVGKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SVGKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+
+PODFILE CHECKSUM: aa6f046f40eab3c91c42b2e96b4748f2aafb4c48
+
+COCOAPODS: 1.11.3

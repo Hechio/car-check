@@ -1,0 +1,6 @@
+framework module Pods_HechioAutochekTests {
+  umbrella header "Pods-HechioAutochekTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
